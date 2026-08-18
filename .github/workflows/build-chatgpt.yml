@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - build-1.0.9.4
+  pull_request:
+    branches:
+      - build-base-1.0.9.4
 
 jobs:
   build:
